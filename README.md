@@ -17,19 +17,5 @@ pip install -e timelapse
 A description will follow...
 
 ```python
-import 
-openImageCV2(Path('../playgrounds/data/input_img/series_1/G0020575.JPG'))
+#img = openImageCV2(Path('../playgrounds/data/input_img/series_1/G0020575.JPG'))
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-7-e468cd22299b> in <module>
-          1 import timelapse.core
-    ----> 2 openImageCV2(timelapse.Path('../playgrounds/data/input_img/series_1/G0020575.JPG'))
-    
-
-    AttributeError: module 'timelapse' has no attribute 'Path'
-
