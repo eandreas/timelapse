@@ -17,5 +17,7 @@ pip install -e timelapse
 A description will follow...
 
 ```python
-#img = openImageCV2(Path('../playgrounds/data/input_img/series_1/G0020575.JPG'))
+from pathlib2 import Path
+fn = Path('../playgrounds/data/input_img/series_1/G0020575.JPG')
+#getDateTimePictureTaken(fn)
 ```

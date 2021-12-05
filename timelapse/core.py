@@ -3,13 +3,6 @@
 __all__ = ['openImageCV2', 'plotCV2', 'putText', 'getDateTimePictureTaken']
 
 # Cell
-import cv2
-from pathlib2 import Path
-from matplotlib import pyplot as plt
-from exif import Image
-from datetime import datetime
-
-# Cell
 def openImageCV2(path):
     '''Returns a cv2-image read based on a pathlib2-Path variable'''
     return cv2.imread(path.as_posix())
